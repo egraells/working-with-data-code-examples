@@ -4,7 +4,7 @@ import { ShowToastEvent } from "lightning/platformShowToastEvent";
 import { reduceErrors } from "c/ldsUtils";
 
 export default class LdsDeleteRecord extends LightningElement {
-  recordId = "0011700001Ut0BOAAZ";
+  recordId = "0013N00001D5qXZQAZ";
 
   handleButtonClick() {
     deleteRecord(this.recordId)
